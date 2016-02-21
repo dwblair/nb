@@ -85,5 +85,23 @@ http://www.fascinatingcaptain.com/howto/install-ubuntu-on-the-toshiba-chromebook
 https://hackaday.io/project/1379-diy-fiber-optic-sensors
 https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=68660
 
+- low cost fiber optic pH sensor
+https://www.osapublishing.org/view_article.cfm?gotourl=https%3A%2F%2Fwww%2Eosapublishing%2Eorg%2FDirectPDFAccess%2F34675243-B4DA-50AC-C8A3F4A4A425B215_190647%2Foe-17-25-22296%2Epdf%3Fda%3D1%26id%3D190647%26seq%3D0%26mobile%3Dno&org=
+
+- using phenol red absorption
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3771845/
+
+- nice old thesis
+https://core.ac.uk/download/files/370/11539810.pdf
+
+- principle of ph sensor
+http://csrg.ch.pw.edu.pl/tutorials/fiber/
+
+- ysi comparison of optimetric vs potentiometric
+https://www.ysi.com/ysi-blog/water-blogged-blog/2014/10/ph-measurement-methods-advantages-and-disadvantages
+
+- great paper on pros and cons of optical sensing -- great great overview
+http://cdn.intechopen.com/pdfs-wm/26343.pdf
+
 
 
