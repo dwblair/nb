@@ -74,3 +74,11 @@ http://www.mouser.com/ProductDetail/CK-Components/SDA12H1BD/?qs=sGAEpiMZZMv%2f%2
 
 - piece on medium on blockchain, to counter:
 https://medium.com/@piscosour/from-bitcoin-skeptic-to-blockchain-enthusiast-5ad99e39d249#.u3qfenawj
+
+- solar water disinfection
+http://www.cdc.gov/safewater/solardisinfection.html
+
+
+
+
+
