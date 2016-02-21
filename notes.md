@@ -78,7 +78,12 @@ https://medium.com/@piscosour/from-bitcoin-skeptic-to-blockchain-enthusiast-5ad9
 - solar water disinfection
 http://www.cdc.gov/safewater/solardisinfection.html
 
+- linux on toshiba chromebook
+http://www.fascinatingcaptain.com/howto/install-ubuntu-on-the-toshiba-chromebook-2-in-5-steps/
 
+- diy fiber optics
+https://hackaday.io/project/1379-diy-fiber-optic-sensors
+https://www.raspberrypi.org/forums/viewtopic.php?f=37&t=68660
 
 
 
