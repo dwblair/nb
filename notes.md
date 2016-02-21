@@ -11,3 +11,6 @@ webcam and linux:
 - original post: http://tinkerlog.com/2012/05/13/battery-adapter-for-canon-powershot-sx200/
 - additional photo: http://diy3dprinting.blogspot.com/2014/04/diy-3d-printed-external-power-supply.html
 - battery emulator: http://hackaday.com/2015/01/21/3d-printed-camera-battery-emulator/
+
+gps datalogger:
+- http://www.toptechboy.com/arduino/lesson-23-arduino-gps-with-data-logger/
