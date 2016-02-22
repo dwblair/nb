@@ -103,5 +103,66 @@ https://www.ysi.com/ysi-blog/water-blogged-blog/2014/10/ph-measurement-methods-a
 - great paper on pros and cons of optical sensing -- great great overview
 http://cdn.intechopen.com/pdfs-wm/26343.pdf
 
+- impedance spectroscopy and water quality
+http://www.j-sens-sens-syst.net/3/133/2014/jsss-3-133-2014.pdf
 
+- electronic tongue
+http://chemse.oxfordjournals.org/content/30/suppl_1/i258.full
+
+- using a dye and microfluidics and spectrophotometry:
+http://www.fondriest.com/news/ocean-acidification-prompts-low-cost-long-term-ph-sensor.htm
+
+- ph and microfluidics:
+http://noc.ac.uk/news/new-generation-micro-sensors-monitoring-ocean-acidification
+
+- spectrophotometer -- pure engineering
+http://www.pureengineering.com/store
+https://hackaday.io/project/4141-c12666ma-micro-spectrometer
+http://www.hamamatsu.com/us/en/C12666MA.html
+
+- group buy for micro spectrophotometer
+https://groupgets.com/manufacturers/hamamatsu-photonics/products/c12666ma-micro-spectrometer
+
+https://hackaday.io/project/1395-open-source-science-tricorder
+- arducorder mini that has footprint for C12666MA
+- specifically, https://github.com/tricorderproject/arducordermini/blob/master/hardware/sensorboard_spectrometer_rev0.pdf
+
+near-ir fft:
+http://www.laserfocusworld.com/articles/2015/02/si-ware-mems-sensors-chosen-for-spectrometer-based-soil-analysis.html
+
+- single board nmr based on usb radio
+http://d1.ourdev.cn/bbs_upload782111/files_42/ourdev_657333WMUP1R.pdf
+https://www.thevespiary.org/rhodium/Rhodium/Vespiary/talk/files/2726-A-Radio-Frequency-Source-Using-Direct-Digital-Synthesis-and-Field-Programmable-Gate-Array-for-Nuclear-Magnetic-Resonance.807f.pdf
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3892883/pdf/sensors-13-16245.pdf
+
+# 2016-2-22
+
+four-probe conductivity circuit
+https://github.com/p-v-o-s/conductivity-research/blob/master/four_probe.ipynb
+
+two-probe conductivity circuit
+https://github.com/p-v-o-s/conductivity-research/blob/master/two_probe.ipynb
+
+in-browser 'live' plotting via jupyter (running locally):
+https://github.com/p-v-o-s/conductivity-research/blob/master/plotter.ipynb
+
+in-browser 'live' plotting via chrome plugin:
+https://github.com/p-v-o-s/chrome-serial-tests
+
+avr code:
+https://github.com/OpenWaterProject/avr-upload
+
+Real Time Clock (RTC) and lower power code streamlined: 
+https://gist.github.com/dwblair/cee071d7b5af1c8f0cda
+
+Nice convos with Craig Versek and others re: dielectric spectroscopy 
+
+-- publiclab receipts  https://publiclab.org/receipts 
+
+This week:
+
+- Write up conductivity and firmware progress as research notes (find nice way to import Jupyter notebook as markdown) 
+- Coqui class at Emerson with Catherine -- more documentation
+- Four probe conductivity prototyping 
+ 
 
