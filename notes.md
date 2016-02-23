@@ -126,9 +126,7 @@ https://groupgets.com/manufacturers/hamamatsu-photonics/products/c12666ma-micro-
 https://hackaday.io/project/1395-open-source-science-tricorder
 - arducorder mini that has footprint for C12666MA
 - specifically, https://github.com/tricorderproject/arducordermini/blob/master/hardware/sensorboard_spectrometer_rev0.pdf
-
-near-ir fft:
-http://www.laserfocusworld.com/articles/2015/02/si-ware-mems-sensors-chosen-for-spectrometer-based-soil-analysis.html
+ near-ir fft: http://www.laserfocusworld.com/articles/2015/02/si-ware-mems-sensors-chosen-for-spectrometer-based-soil-analysis.html
 
 - single board nmr based on usb radio
 http://d1.ourdev.cn/bbs_upload782111/files_42/ourdev_657333WMUP1R.pdf
@@ -165,4 +163,114 @@ This week:
 - Coqui class at Emerson with Catherine -- more documentation
 - Four probe conductivity prototyping 
  
+spectrometer device pcb https://github.com/tricorderproject/arducordermini/blob/master/hardware/sensorboard_spectrometer_rev0.pdf
+
+
+spectrometer device pcb https://github.com/tricorderproject/arducordermini/blob/master/hardware/sensorboard_spectrometer_rev0.pdf
+
+----
+
+- Trigger BBB Webcam, USB
+- Power on BBB -- remote switch with features 
+- through-hole stuff 
+
+
+- undecover raptor eye
+http://www.pixcontroller.com/UndercoverEye/UndercoverEye-Cellular.htm
+
+game camera review:
+http://game-camera-review.toptenreviews.com/
+
+naturebytes camera:
+https://www.raspberrypi.org/blog/naturebytes-camera-traps/
+
+- pi in the sky lora gateway
+https://github.com/piinthesky
+
+lora radio on hackaday:
+http://hackaday.com/2014/11/16/the-future-of-the-internet-of-things/
+
+fiber optic cable source for adafruit
+http://www.wiedamark.com/fiberopticlighting.aspx
+
+voltage to frequency converter
+http://www.mouser.com/ds/2/609/AD7740-278983.pdf
+http://www.mouser.com/ProductDetail/Analog-Devices/AD7740KRMZ-REEL7/?qs=sGAEpiMZZMuYYilu8wI%252bZxvtRgn7Gyq8jqE9xoTIaLI%3d
+
+designs for high performance voltage to frequency converters
+http://cds.linear.com/docs/en/application-note/an14f.pdf
+-- see figure 14 !!! sine wave output 
+
+sine wave generation techniques
+http://www.ti.com/lit/an/snoa665c/snoa665c.pdf
+
+sine approximation: allows for easy tuning -- see section 10 / figure 14
+
+--- figure 15 -- voltage tunable sine wave oscillator!!!
+http://www.ti.com/lit/an/snoa665c/snoa665c.pdf
+-- can use this op-amp: http://www.digikey.com/product-detail/en/AD711JNZ/AD711JNZ-ND/671001
+
+arduino sine wave generation: 
+-- http://interface.khm.de/index.php/lab/interfaces-advanced/arduino-dds-sinewave-generator/
+
+the synth library!
+https://github.com/dzlonline/the_synth
+
+function generator with attiny
+http://hackaday.com/2012/02/08/attiny25-based-function-generator-causes-a-wave/
+
+http://blog.allgaiershops.com/2012/02/08/attiny25-based-function-generator/
+
+http://www.technoblogy.com/show?QVN
+
+sine wave on the digispark!
+http://duino4projects.com/digispark-rgb-led-fader/
+
+attiny85 sine wave 
+http://cho-yaba.punyu.jp/?p=1663
+
+variable sine wave code
+http://interface.khm.de/index.php/lab/interfaces-advanced/arduino-dds-sinewave-generator/
+
+thread on using digispark as sine wave generator
+http://forum.arduino.cc/index.php?topic=263703.0
+
+code for the attiny85:
+http://www.mikrocontroller.net/attachment/163429/Tiny_50Hz.c
+
+more code for attiny:
+http://www.alexallmont.com/blog/?p=178
+http://shin-ajaran.blogspot.com/2014/04/wearable-electronics-arduino-x-attiny85.html
+http://www.electronics-lab.com/project/tiny-dds-open-source-dds-generator/
+
+DDS -- write to chip w/ arduino -- for cool breakout board -- 
+http://www.analog.com/media/en/technical-documentation/data-sheets/AD9837.PDF
+
+really simple sine wave w/ an op-amp:
+http://www.ti.com/lit/wp/snoa839/snoa839.pdf
+
+voltage controlled oscillator --> smart phone circuit
+http://www.instructables.com/id/How-to-Make-a-Voltage-Controlled-Oscillator/?ALLSTEPS
+
+very simple voltage controlled oscillator IC
+http://www.mouser.com/ds/2/405/sn74ls624-405812.pdf
+
+555 alarm based on voltage -- use with conductivity circuit?
+http://www.electroschematics.com/6255/temperature-alarm-2/
+
+over-temperature alarm:
+http://electronicdesign.com/analog/over-temperature-alarm-circuit-uses-common-inexpensive-components
+
+# 2016-2-23
+
+The corporate timescale for clean energy:
+http://www.nytimes.com/2016/02/23/opinion/bill-gatess-clean-energy-moon-shot.html
+
+PIT physics of information theory notes:  
+http://fab.cba.mit.edu/classes/862.16/
+
+notes on binomial distribution:
+https://www3.nd.edu/~rwilliam/stats1/x13.pdf
+
+
 
