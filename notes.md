@@ -272,5 +272,56 @@ http://fab.cba.mit.edu/classes/862.16/
 notes on binomial distribution:
 https://www3.nd.edu/~rwilliam/stats1/x13.pdf
 
+nice proofs:
+http://www.math.uah.edu/stat/bernoulli/Binomial.html
+
+further proof material:
+https://proofwiki.org/wiki/Expectation_of_Binomial_Distribution
+
+common conductivity measurement mistakes: 
+https://www.thermofisher.co.nz/Uploads/file/Environmental-Industrial/Environmental-Monitoring-Safety/Water-Monitoring-Treatment/Tech-Tip-Top-Ten-Conductivity-Mistakes-NZ.pdf
+
+theory of four probe conductivity measurements:
+http://www.landviser.net/webfm_send/10
+
+# 2016-2-24
+
+Fantastic blog re: hacks with avrs:
+http://scanlime.org/2008/09/using-an-avr-as-an-rfid-tag/
+
+TODO: check out lifepo battery tech
+
+rationale for using 1200 baud standard for FSK: https://www.reddit.com/r/electronics/comments/2acu2b/decoding_fsk_signal/
+
+rationale for audio: http://labs.rakettitiede.com/12kbps-simple-audio-data-transfer-for-avr/
+
+basic scheme to implement FSK -- great explanation / hack: http://labs.rakettitiede.com/12kbps-simple-audio-data-transfer-for-avr/
+
+fab lab fsk: http://fab.cba.mit.edu/classes/863.12/people/Adam.Marblestone/AHM_week11.html
+
+arduino manchester encoding: https://mchr3k.github.io/arduino-libs-manchester/
+
+review of implementations in javascript: https://github.com/cobookman/HTML5.MicIO/issues/2
+
+brilliant -- finland hacker, pea whistle: http://www.windytan.com/2015/10/pea-whistle-steganography.html
+
+sound of a dialup, pictured: http://www.windytan.com/2012/11/the-sound-of-dialup-pictured.html
+
+pitch detect in web audio: https://github.com/cwilso/PitchDetect **** 
+
+using morse code over audio: http://www.whatisthis.top/questions/150301/data-to-audio-and-back-modulation-demodulation-with-source-code ****
+
+ORDERING:  
+- need materials for jon's project
+- need materials for turbidity
+
+turbidity -- ~ 850 nm leds on mouser
+http://www.mouser.com/Optoelectronics/Infrared-Data-Communications/Infrared-Emitters/_/N-6qrgl?P=1z0wtyrZ1z0wtyt
+
+better boost chip? http://jeelabs.org/wp-content/uploads/2012/06/04/boost-revisited/index.html
+
+TODO -- find the lifepo info / breakout board
+
+
 
 
