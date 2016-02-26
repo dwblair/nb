@@ -27,6 +27,7 @@ LiFePO4 battery chemistry:
 http://lifepo4wered.com/
 
 
+https://hdfgroup.org/wp/2015/04/hdf5-for-the-web-hdf-server/
 - https://hackaday.com/2015/09/06/better-batteries-for-electronic-gadgets/
 - https://github.com/xorbit/LiFePO4wered-USB-OSHW
 
@@ -323,5 +324,89 @@ better boost chip? http://jeelabs.org/wp-content/uploads/2012/06/04/boost-revisi
 TODO -- find the lifepo info / breakout board
 
 
+hdf5 access online:
+https://hdfgroup.org/wp/2015/04/hdf5-for-the-web-hdf-server/
 
+lecture online: https://www.youtube.com/watch?v=FOMI0ORGH44&ebc=ANyPxKr5uUXe42rnrDdyfotqYY4RhDqvjOBYiSugtaY-u2iYp177tn--9pSTAsqeMq3rcGrToCtHLVEHR3JgfJ1qxBomhgS7mw
+
+replacing relatve paths
+http://stackoverflow.com/questions/4694993/replace-url-relative-path-with-full-domain-in-css-files
+
+pycharm and jupyter:
+http://blog.jetbrains.com/pycharm/2015/07/quantitative-research-in-python-using-notebooks/
+
+https://cloud.sagemath.com
+
+pycharm
+http://nicoddemus.github.io/articles/pycharm/
+
+avr and dtmf:
+http://www.atmel.com/images/doc1982.pdf
+http://boris0.blogspot.com/2013/09/rotary-dial-for-digital-age.html
+
+SOLVED: https://github.com/johnmccombs/arduino-libraries/blob/master/Tone/examples/DTMFTest/DTMFTest.pde
+
+goertzel algorithm: https://github.com/Ravenstine/goertzeljs
+
+# 2016-2-25
+￼
+## turbidity 
+
+cornell reference re: turbidity
+http://people.ece.cornell.edu/land/courses/ece4760/FinalProjects/s2005/jsa25_jyh25/TurbidityMeter.htm
+
+wash4all: http://wash4all.org/wp/blog/
+
+nice part: https://www.sparkfun.com/datasheets/Sensors/TSL230R-LF-e3.pdf
+
+another nice part: https://www.adafruit.com/datasheets/TSL256x.pdf
+
+http://www.chi.camp/projects/dory/
+
+https://learn.adafruit.com/ir-sensor
+
+meausring turbidity:
+http://www.fondriest.com/environmental-measurements/equipment/measuring-water-quality/turbidity-sensors-meters-and-methods/
+
+http://ir.hfcas.ac.cn/bitstream/334002/11934/1/Research%20on%20PWM%20applied%20in%20water%20turbidity%20measurement.pdf
+
+http://www.analog.com/media/en/technical-documentation/technical-articles/Optimizing-Precision-Photodiode-Sensor-Circuit-Design-MS-2624.pdf
+
+interesting: phototransistors that emit and detect: http://sensing.honeywell.com/honeywell-sensing-infrared-sensors-line-guide-006494-6-en.pdf
+
+how to build a lock-in amplifier:
+http://www.analog.com/library/analogdialogue/archives/48-11/lock_in_amplifier.html <--- key reference!! 
+
+lock-in amplifier: http://www.phys.utk.edu/labs/modphys/lock-in%20amplifier%20experiment.pdf
+
+http://www.instructables.com/id/Lock-in-Amplifier/
+
+http://electronics.physics.helsinki.fi/wp-content/uploads/2011/02/lockin_rob_web.pdf  <--- great explanation
+
+so, one idea: pulse LED with a sine wave of 1 kHz, and use band pass around 1 kHz on the detector ...
+
+input can be true sine wave, or square wave + filters 
+
+same principle used here: http://www.comm-tec.com/library/Technical_Papers/SinglePointDoppler/Turbidity%20Sensor%20Design%20and%20performance.pdf
+
+nice conceptual diagram: http://www.mdpi.com/1424-8220/14/3/3871/htm
+
+removing dc offset:
+https://openenergymonitor.org/emon/buildingblocks/digital-filters-for-offset-removal
+
+circuit for removing dc offset: http://forum.allaboutcircuits.com/threads/removing-dc-offset-from-a-signal.65288/
+
+good explanation of lock-in amplifier: https://www.uni-ulm.de/fkp/lehre/Physics%20Lab%20Anleitungen/Lockin%20Amplifier.pdf
+
+try some version of filtering / lock-in amplifier to remove DC offset in signal 
+
+## microphone / noise
+
+For those thinking about using smartphone apps, we (NIOSH) did a study on noise apps and not all apps are equal in terms of accuracy and reliability.  See http://blogs.cdc.gov/niosh-science-blog/2014/04/09/sound-apps/.  We published the study in the Journal of Acoustical Society of America http://scitation.aip.org/content/asa/journal/jasa/135/4/10.1121/1.4865269.
+
+calibrated external mic: http://www.parts-express.com/dayton-audio-imm-6-calibrated-measurement-microphone-for-tablets-iphone-ipad-and-android--390-810
+
+nice calibrated microphone for iphone: http://www.amazon.com/MicW-Calibrated-Measurement-External-Microphone/dp/B00510Y3KC
+
+great blog post + comments on the microphone project: http://blogs.cdc.gov/niosh-science-blog/2014/04/09/sound-apps/
 
