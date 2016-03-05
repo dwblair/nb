@@ -381,7 +381,7 @@ lock-in amplifier: http://www.phys.utk.edu/labs/modphys/lock-in%20amplifier%20ex
 
 http://www.instructables.com/id/Lock-in-Amplifier/
 
-http://electronics.physics.helsinki.fi/wp-content/uploads/2011/02/lockin_rob_web.pdf  <--- great explanation
+http://electronics.physics.helsinki.fi/wp-content/uploads/2011/02/lockin_rob_web.pdf  <--- great explanation in a physics lab, good diagrams
 
 so, one idea: pulse LED with a sine wave of 1 kHz, and use band pass around 1 kHz on the detector ...
 
@@ -409,4 +409,287 @@ calibrated external mic: http://www.parts-express.com/dayton-audio-imm-6-calibra
 nice calibrated microphone for iphone: http://www.amazon.com/MicW-Calibrated-Measurement-External-Microphone/dp/B00510Y3KC
 
 great blog post + comments on the microphone project: http://blogs.cdc.gov/niosh-science-blog/2014/04/09/sound-apps/
+
+# 2016-2-28
+
+kml and python: 
+https://ocefpaf.github.io/python4oceanographers/blog/2014/05/05/folium/
+
+https://ocefpaf.github.io/
+
+# 2016-2-29
+
+## turbidity
+
+infrared sensing fundamentals:
+http://www.onsemi.com/pub_link/Collateral/AN1016-D.PDF
+
+using ir leds to sense turbidity
+http://avnetexpress.avnet.com/wcsstore/emstore/images/whatsnew/Measuring-Water.pdf?intcmp=aeSearch_na_lighting_Measuring-Water_Jul14
+
+emitters:
+
+sfh4550, 4650, 4655, 4715S
+
+detectors:
+
+BPY62
+http://www.mouser.com/ProductDetail/OSRAM-Opto-Semiconductors/BPY-62-4/?qs=nTDll3UaDK5htMgoScxDRA%3D%3D
+
+RGB and turbidity:
+http://optics.uvigo.es/papers/059_IMC_68.pdf
+
+nice basic circuit:
+file:///home/dwblair/Downloads/sensorcomm_2013_10_30_10227.pdf
+https://www.thinkmind.org/download.php?articleid=sensorcomm_2013_10_30_10227
+
+constant current source, and nice schematics:
+http://www.sensorsportal.com/HTML/DIGEST/march_2014/Special_issue/P_SI_547.pdf
+
+turbidimeter design and analysis:
+http://www.mdpi.com/1424-8220/9/10/8311/pdf
+
+nir spectroscopoy:
+http://www.sensorsportal.com/HTML/DIGEST/march_2014/Special_issue/P_SI_544.pdf
+
+plastic optical fiber:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3297155/
+
+strong influence of temperature on leds, and temperature compensation for turbidity:
+http://dl.ifip.org/db/conf/ifip12/ccta2010-4/TaiLWMD10.pdf
+
+using pwm in turbidity:
+file:///home/dwblair/Downloads/Research%20on%20PWM%20applied%20in%20water%20turbidity%20measurement%20(2).pdf
+http://202.127.207.43/bitstream/334002/11934/1/Research%20on%20PWM%20applied%20in%20water%20turbidity%20measurement.pdf
+
+turbdity -- why it's important:
+http://www.ott.com/download/turbidity-white-paper/
+indicates that backscatter is relevant for high turbidity samples
+
+turbdidity monitors comparison:
+http://www.wjf.ca/Turbidity_Monitors_Comparison.pdf
+
+estimation of chlrophyll a content:
+http://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1315&context=natrespapers
+
+nice folium examples
+http://folium.readthedocs.org/en/latest/examples.html
+
+multisensor -- conductivity and turbidity:
+http://www.imeko.org/publications/tc19-2010/IMEKO-TC19-2010-034.pdf
+
+washing machine patent that mentions temperature fluctuations
+http://www.google.co.in/patents/US5889192?cl=de
+
+nice commercial reference:
+http://christianberner.no/$-1/file/presentasjon-turbiditet-web.pdf
+
+optical fiber sensor:
+http://cdn.intechopen.com/pdfs-wm/45050.pdf
+
+great explanation of pulsing system:
+http://cdn.intechopen.com/pdfs-wm/45050.pdf
+
+use of modulation -- nice graphic explanation:
+http://paperity.org/p/34887736/a-highly-sensitive-in-situ-turbidity-sensor-with-low-power-consumption
+see especially: figure 5
+
+guide to phase-locked loops and chips:
+http://www.ti.com.cn/cn/lit/an/scha002a/scha002a.pdf
+ahh -- the pll chip is $0.50!
+http://www.digikey.com/product-detail/en/CD4046BE/296-2052-5-ND/67295
+
+discussion of using this chip, and a narrow band-pass filter -- bi-quad op-amp design
+http://www.edaboard.com/thread225259.html
+
+nice discussion of transimpedance amplifier
+http://electronics.stackexchange.com/questions/24897/how-to-make-ir-proximity-detector-immune-to-the-daylight
+
+useful chip for modulator / demodulator:
+http://www.analog.com/media/en/technical-documentation/data-sheets/AD630.pdf
+figure 35 shows the circuit
+
+nice description of lock-in amplifier:
+http://sunnytek.net/admin/xiazaifiles/2010113162732769.pdf
+
+dual-channel absorption measurement 
+http://www.signalrecovery.com/download/AN1000%20Dual-Channel%20Absorption%20Measurement%20with%20Source%20Intensity%20Compensation.pdf
+
+consideration of plastci fiber measurement:
+file:///home/dwblair/Downloads/sensors-09-08311%20(2).pdf
+
+nice review paper: 
+http://www2.ucy.ac.cy/~faniseng/publications/SENSAPPEAL09.pdf
+
+affordable open source turbidimeter:
+http://www.ncbi.nlm.nih.gov/pmc/articles/PMC4029670/
+
+simple temperature compensation for turbidity leds:
+http://download.springer.com/static/pdf/893/chp%253A10.1007%252F978-3-642-18369-0_78.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fchapter%2F10.1007%2F978-3-642-18369-0_78&token2=exp=1456807315~acl=%2Fstatic%2Fpdf%2F893%2Fchp%25253A10.1007%25252F978-3-642-18369-0_78.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fchapter%252F10.1007%252F978-3-642-18369-0_78*~hmac=8e24cadfb999f336042802435bed6d502938d07520becce822b08e7e5cc9700a
+
+nice article on standard usgs procedures for water quality sensing:
+http://www.wou.edu/las/physci/taylor/luck/water_qual_sensor.pdf
+
+nice guide, discusses need to compensate for temperature:
+http://www.nexsens.com/pdf/Guide_Turbidity_Monitoring.pdf
+
+## entropy
+
+https://en.wikipedia.org/wiki/Entropy_(information_theory)#Continuity
+
+also talks about differential entropy
+
+differential entropy:
+http://www.ece.tufts.edu/~maivu/ES250/5-differential_entropy.pdf
+
+differential entropy of a gaussian:
+http://web.ntpu.edu.tw/~phwang/teaching/2012s/IT/slides/chap08.pdf
+
+https://en.wikipedia.org/wiki/Bias_of_an_estimator
+more notes: http://math.arizona.edu/~jwatkins/N_unbiased.pdf
+http://onlinestatbook.com/2/estimation/characteristics.html
+
+here's the proof: https://onlinecourses.science.psu.edu/stat414/node/192
+
+nice notes on the fisher information:
+http://people.missouristate.edu/songfengzheng/Teaching/MTH541/Lecture%20notes/Fisher_info.pdf
+
+for 4.2 ...
+https://en.wikipedia.org/wiki/Mutual_information
+
+for 4.1: continuity https://cs.uwaterloo.ca/~watrous/CS766/LectureNotes/10.pdf
+
+properties come up in 'rationale': https://en.wikipedia.org/wiki/Entropy_(information_theory)
+
+probabilities
+
+binary channel majority vote encoder -- see mackay p 6
+
+# 2016-3-1
+
+nice blog software, supports jupyter: https://getnikola.com/blog/
+
+jupyter in nikola: http://www.damian.oquanta.info/posts/nikola-nbconvert.html
+
+blogging with Pelican:
+https://github.com/danielfrg/pelican-ipynb
+
+
+app used by craig: GPS Essentials
+
+machine learning with R: http://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/
+
+arduion dtmf:
+
+http://nerdclub-uk.blogspot.com/2013/11/telephone-dialler-dtmf-tone-generator.html
+
+arduino code: http://arduinotronics.blogspot.com/2012/11/producing-dtmf-tones.html
+http://www.newark.com/holtek/ht9200a-8soplf/dtgenerator-sop-8/dp/53M7848
+
+based on code here: http://forum.arduino.cc/index.php/topic,14687.0.html
+from this guy: http://brohogan.blogspot.com/2009/12/telephone-interface.html
+
+http://www.atmel.com/Images/doc1982.pdf
+
+http://www.geeetech.com/blog/2014/05/self-made-telephone-dialer-with-arduino/
+
+# 2016-3-3
+
+## riffle problem uploading 
+
+avrdude: Version 6.0.1, compiled on Apr 14 2015 at 19:04:16
+         Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+         Copyright (c) 2007-2009 Joerg Wunsch
+
+         System wide configuration file is "/home/dwblair/arduino-1.6.7/hardware/tools/avr/etc/avrdude.conf"
+         User configuration file is "/home/dwblair/.avrduderc"
+         User configuration file does not exist or is not a regular file, skipping
+
+         Using Port                    : /dev/ttyUSB0
+         Using Programmer              : arduino
+         Overriding Baud Rate          : 115200
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 1 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 2 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 3 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 4 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 5 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 6 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 7 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 8 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 9 of 10: not in sync: resp=0x00
+avrdude: stk500_recv(): programmer is not responding
+avrdude: stk500_getsync() attempt 10 of 10: not in sync: resp=0x00
+
+avrdude done.  Thank you.
+
+Problem uploading to board.  See http://www.arduino.cc/en/Guide/Troubleshooting#upload for suggestions.
+
+## things to review
+
+turbidity
+- on/off
+- pulse
+- wavelength
+- angle
+- calibration
+
+conductivity
+- methods
+- calbibration
+
+electrochemistry
+
+radio comm
+
+wien oscillator for fsk:
+http://www.next.gr/oscillators/wein-bridge/low-cost-fsk-generator-l13335.html
+
+low-cost fsk generator:
+http://iosrjournals.org/iosr-jece/papers/Vol.%209%20Issue%205/Version-1/G09513643.pdf
+http://www.electronics-lab.com/low-cost-fsk-generator/
+
+analysis:
+http://www.zen22142.zen.co.uk/Design/wien_osc/Wien-Bridge%20Oscillator.htm
+
+PLL phase locked loop wien oscillator:
+file:///home/dwblair/Downloads/2IFD.pdf
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=8&cad=rja&uact=8&ved=0ahUKEwjVupDx0ajLAhVpsYMKHfeEBKoQFgg_MAc&url=http%3A%2F%2Fwww.zen22142.zen.co.uk%2FDesign%2Fwien_osc%2FWien-Bridge%2520Oscillator.htm&usg=AFQjCNHtYghRSUFW_b-3SkhYaloR71lkhQ&sig2=W2GVKNiG7VUV_VaoIeUnTQ
+
+https://github.com/Ravenstine/goertzeljs
+
+arduino goertzel algorithm https://github.com/jacobrosenthal/Goertzel
+
+https://netwerkt.wordpress.com/2011/08/25/goertzel-filter/
+
+http://fossies.org/dox/freeswitch-1.6.6/goertzel_8c_source.html
+
+review of turbidity techniques:
+http://cdn.intechopen.com/pdfs-wm/9128.pdf
+
+http://www.analog.com/media/en/technical-documentation/technical-articles/Optimizing-Precision-Photodiode-Sensor-Circuit-Design-MS-2624.pdf  < -- nice
+
+temperature compensation for turbidity: http://dl.ifip.org/db/conf/ifip12/ccta2010-4/TaiLWMD10.pdf
+
+for fish oil: http://www.taxidermy.net/forums/FishTaxiArticles/01/g/0115EA9591.html
+
+ratio system for turbidity: http://www.google.ch/patents/US3775013
+
+nature's miracle: http://www.amazon.com/Natures-Miracle-Remover-Gallon-512504/dp/B00025K0L2
+
+REALLY nice review of turbidity techniques: http://acwi.gov/monitoring/conference/2004/conference_agenda_links/papers/poster_papers/215_SadarMike.pdf
+
+(see figure 5)
+
+talks about modulation to reduce signal noise: http://www.analog.com/media/en/technical-documentation/technical-articles/Optimizing-Precision-Photodiode-Sensor-Circuit-Design-MS-2624.pdf <---- write this up !!!!!
+
+Fig 10 is very simple --- and we can implement the sine wave easily!!  but even easier to try with uC pin.  try it. 
 
